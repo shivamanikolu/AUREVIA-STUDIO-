@@ -1,0 +1,142 @@
+/* ==========================================================================
+   AUREVIA STUDIO DENTAL CARE — ANIMATIONS CSS
+   ========================================================================== */
+
+/* ==========================================================================
+   KEYFRAME ANIMATIONS (CSS Reveal Fallbacks)
+   ========================================================================== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes blurClear {
+  from {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  to {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleReveal {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ==========================================================================
+   ANIMATION CLASS UTILITIES
+   ========================================================================== */
+.animate-fade-in {
+  animation: fadeIn 1.2s var(--transition) forwards;
+}
+
+.animate-fade-up {
+  animation: fadeUp 1.2s var(--transition) forwards;
+}
+
+.animate-blur-clear {
+  animation: blurClear 1.4s var(--transition) forwards;
+}
+
+/* Scroll-triggered reveal state for GSAP / fallback */
+.reveal-element {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0px);
+  transition: opacity 1s var(--transition-slow), transform 1s var(--transition-slow), filter 1s var(--transition-slow);
+}
+
+.reveal-element.revealed {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+
+/* ==========================================================================
+   HOVER EFFECTS
+   ========================================================================== */
+
+/* Image Zoom */
+.zoom-img-container {
+  overflow: hidden;
+  border-radius: var(--radius-medium);
+  position: relative;
+}
+
+.zoom-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.zoom-img-container:hover .zoom-img {
+  transform: scale(1.08);
+}
+
+/* Text Reveal Stagger for Headings */
+.stagger-word-wrap {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.stagger-word {
+  display: inline-block;
+  transform: translateY(100%);
+  transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Magnetic Button helper transition */
+.magnetic-wrap {
+  display: inline-block;
+  transition: transform 0.2s var(--transition);
+}
+
+/* Magnetic Glow */
+.glow-card {
+  position: relative;
+}
+
+.glow-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  opacity: 0;
+  box-shadow: 0 0 40px 10px rgba(201, 180, 140, 0.15);
+  transition: opacity 0.5s var(--transition);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.glow-card:hover::after {
+  opacity: 1;
+}

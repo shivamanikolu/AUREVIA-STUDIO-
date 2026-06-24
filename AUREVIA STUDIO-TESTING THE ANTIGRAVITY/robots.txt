@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Exclude static legal pages
+Disallow: /privacy-policy.html
+Disallow: /terms.html
+
+Sitemap: https://aureviastudio.com/sitemap.xml

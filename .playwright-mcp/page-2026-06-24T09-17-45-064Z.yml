@@ -1,0 +1,259 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation "Main Navigation" [ref=e3]:
+      - link "AUREVIA STUDIO" [ref=e4]:
+        - /url: index.html
+        - text: AUREVIA STUDIO
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8]:
+            - /url: index.html
+        - listitem [ref=e9]:
+          - link "About" [ref=e10]:
+            - /url: about.html
+        - listitem [ref=e11]:
+          - link "Services" [ref=e12]:
+            - /url: services.html
+        - listitem [ref=e13]:
+          - link "Testimonials" [ref=e14]:
+            - /url: testimonials.html
+        - listitem [ref=e15]:
+          - link "Contact" [ref=e16]:
+            - /url: contact.html
+        - listitem [ref=e17]:
+          - link "Book Consultation" [ref=e18] [cursor=pointer]:
+            - /url: contact.html
+  - list [ref=e20]:
+    - listitem [ref=e21]:
+      - link [ref=e22]:
+        - /url: index.html
+        - text: Home
+    - listitem [ref=e23]:
+      - link [ref=e24]:
+        - /url: about.html
+        - text: About
+    - listitem [ref=e25]:
+      - link [ref=e26]:
+        - /url: services.html
+        - text: Services
+    - listitem [ref=e27]:
+      - link [ref=e28]:
+        - /url: testimonials.html
+        - text: Testimonials
+    - listitem [ref=e29]:
+      - link [ref=e30]:
+        - /url: contact.html
+        - text: Contact
+    - listitem [ref=e31]:
+      - link [ref=e32] [cursor=pointer]:
+        - /url: contact.html
+        - text: Book Consultation
+  - main [ref=e33]:
+    - generic [ref=e35]:
+      - text: Modern Dentistry Reimagined
+      - heading "Precision Dentistry Designed Around Confidence" [level=1] [ref=e36]:
+        - text: Precision Dentistry
+        - text: Designed Around Confidence
+      - paragraph [ref=e37]: Luxury dental experiences crafted with modern care, advanced technology, and human-centered comfort.
+      - generic [ref=e38]:
+        - link "Book Consultation" [ref=e39] [cursor=pointer]:
+          - /url: contact.html
+        - link "Explore Services" [ref=e40] [cursor=pointer]:
+          - /url: services.html
+      - generic [ref=e41]:
+        - img "Aurevia Studio treatment lounge showing beige chair and floor-to-ceiling windows" [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - heading "Advanced Digital Care" [level=4] [ref=e45]
+            - paragraph [ref=e46]: State-of-the-art 3D imaging, laser treatments, and digital impressions.
+          - generic [ref=e47]:
+            - heading "Luxury Setting" [level=4] [ref=e48]
+            - paragraph [ref=e49]: Designed around comfort, featuring noise-canceling headsets and calming aesthetics.
+          - generic [ref=e50]:
+            - heading "Bespoke Smile Design" [level=4] [ref=e51]
+            - paragraph [ref=e52]: Every cosmetic treatment plan is fully individualised to complement your features.
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]: 12+
+        - generic [ref=e58]: Years of Experience
+      - generic [ref=e59]:
+        - generic [ref=e60]: 8k+
+        - generic [ref=e61]: Smiles Transformed
+      - generic [ref=e62]:
+        - generic [ref=e63]: 4.9★
+        - generic [ref=e64]: Patient Rating (Google)
+      - generic [ref=e65]:
+        - generic [ref=e66]: 100%
+        - generic [ref=e67]: Digital Diagnostics
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]: Clinical Excellence
+        - heading "Dental Services Tailored for You" [level=2] [ref=e72]
+        - paragraph [ref=e73]: We blend advanced dental technology with a warm, clinical precision to offer premium care in cosmetic, preventative, and restorative dentistry.
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: ✦
+            - heading "Cosmetic Smile Design" [level=3] [ref=e78]
+            - paragraph [ref=e79]: Achieve the smile of your dreams. Our cosmetic treatments use digital smile mockups and ultra-thin custom porcelain veneers to create a natural, brilliant aesthetic tailored to your unique facial profile.
+          - link "Learn More" [ref=e80]:
+            - /url: services.html
+            - text: Learn More
+            - img [ref=e81]
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - generic [ref=e85]: ◇
+            - heading "Invisalign®" [level=3] [ref=e86]
+            - paragraph [ref=e87]: Straighten your teeth comfortably and discreetly with clear, removable aligners.
+          - link "Learn More" [ref=e88]:
+            - /url: services.html
+            - text: Learn More
+            - img [ref=e89]
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e93]: ☼
+            - heading "Laser Whitening" [level=3] [ref=e94]
+            - paragraph [ref=e95]: Bring out your bright natural shade with safe, in-office laser activation.
+          - link "Learn More" [ref=e96]:
+            - /url: services.html
+            - text: Learn More
+            - img [ref=e97]
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - generic [ref=e101]: ▲
+            - heading "Dental Implants" [level=3] [ref=e102]
+            - paragraph [ref=e103]: Permanent, stable, and natural tooth replacements. Using 3D computer-guided positioning, we place biocompatible implants that bond with the bone to support a crown, restoring complete structure and function.
+          - link "Learn More" [ref=e104]:
+            - /url: services.html
+            - text: Learn More
+            - img [ref=e105]
+      - link "See More Services" [ref=e108] [cursor=pointer]:
+        - /url: services.html
+    - generic [ref=e110]:
+      - img "Dr. Elena Moreau, founder of Aurevia Studio" [ref=e112]
+      - generic [ref=e113]:
+        - generic [ref=e114]: Our Vision
+        - heading "A Calm Clinical Haven Led by Dr. Elena Moreau" [level=3] [ref=e115]
+        - paragraph [ref=e116]: At Aurevia Studio, we believe clinical environments should feel comforting, not sterile. Founded by Dr. Elena Moreau, our clinic provides modern dentistry framed around personal dialogue, artistic visual craftsmanship, and zero-stress comfort protocols.
+        - link "Read Brand Story" [ref=e117] [cursor=pointer]:
+          - /url: about.html
+    - generic [ref=e118]:
+      - generic [ref=e120]:
+        - generic [ref=e121]: Client Reviews
+        - heading "Stories from Our Patients" [level=2] [ref=e122]
+        - paragraph [ref=e123]: Read about the personalized experiences and life-changing smile designs crafted at Aurevia Studio.
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - img "Portrait of Marcus Vance" [ref=e129]
+            - generic [ref=e130]:
+              - heading "Marcus Vance" [level=5] [ref=e131]
+              - paragraph [ref=e132]: Architect
+          - generic "5 stars rating" [ref=e133]: ★★★★★
+          - blockquote [ref=e134]: "\"The design of the clinic immediately puts you at ease. Dr. Moreau's attention to detail, from matching porcelain shades to explaining 3D scans, is masterclass.\""
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - img "Portrait of Sophia Sterling" [ref=e138]
+            - generic [ref=e139]:
+              - heading "Sophia Sterling" [level=5] [ref=e140]
+              - paragraph [ref=e141]: Creative Director
+          - generic "5 stars rating" [ref=e142]: ★★★★★
+          - blockquote [ref=e143]: "\"Invisalign here was an absolute breeze. Everything is digital, and I could view the simulator on the tablet overlay during my sessions. Remarkable service.\""
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - img "Portrait of Dr. Arjun Nair" [ref=e147]
+            - generic [ref=e148]:
+              - heading "Dr. Arjun Nair" [level=5] [ref=e149]
+              - paragraph [ref=e150]: Research Scientist
+          - generic "5 stars rating" [ref=e151]: ★★★★★
+          - blockquote [ref=e152]: "\"Their diagnostic lasers and 3D printing crowns onsite saved me days of wait. High precision, clear explanations, and wonderful post-care.\""
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - img "Portrait of Clara Dupont" [ref=e156]
+            - generic [ref=e157]:
+              - heading "Clara Dupont" [level=5] [ref=e158]
+              - paragraph [ref=e159]: Fine Art Curator
+          - generic "5 stars rating" [ref=e160]: ★★★★★
+          - blockquote [ref=e161]: "\"I had a massive fear of root canals. The comfort protocols, soothing lighting, and Dr. Elena's calm presence made the experience completely painless.\""
+      - link "Read All Patient Reviews" [ref=e163] [cursor=pointer]:
+        - /url: testimonials.html
+    - generic [ref=e165]:
+      - generic [ref=e166]:
+        - generic [ref=e167]: Aesthetic Spaces
+        - heading "Our Studio Environment" [level=2] [ref=e168]
+        - paragraph [ref=e169]: A quiet visual preview inside our clinic interior. Everything is designed to soothe senses and deliver precision results.
+      - generic [ref=e170]:
+        - img "Warm beige travertine details" [ref=e172]
+        - img "Modern dental chair in ambient light" [ref=e174]
+        - img "Dr. Elena Moreau standing in the treatment room" [ref=e176]
+        - img "Serene waiting area decor" [ref=e178]
+    - generic [ref=e181]:
+      - heading "Your Smile Starts Here" [level=2] [ref=e182]
+      - paragraph [ref=e183]: Book a private consultation with Dr. Elena Moreau to discuss personalized smile design, Invisalign, or advanced restorative care.
+      - link "Schedule Appointment" [ref=e184] [cursor=pointer]:
+        - /url: contact.html
+  - contentinfo [ref=e185]:
+    - generic [ref=e186]:
+      - generic [ref=e187]:
+        - generic [ref=e188]:
+          - link "AUREVIA STUDIO" [ref=e189]:
+            - /url: index.html
+            - text: AUREVIA STUDIO
+          - paragraph [ref=e191]: Modern dental experiences crafted with luxury comfort, clinical precision, and patient-centered trust.
+          - generic [ref=e192]:
+            - link "Instagram" [ref=e193]:
+              - /url: https://instagram.com/aureviastudio
+              - text: IG
+            - link "Twitter" [ref=e194]:
+              - /url: https://twitter.com/aureviadental
+              - text: X
+            - link "LinkedIn" [ref=e195]:
+              - /url: https://linkedin.com/company/aurevia-studio
+              - text: LN
+        - generic [ref=e196]:
+          - heading "Navigation" [level=4] [ref=e197]
+          - list [ref=e198]:
+            - listitem [ref=e199]:
+              - link "Home" [ref=e200]:
+                - /url: index.html
+            - listitem [ref=e201]:
+              - link "About Studio" [ref=e202]:
+                - /url: about.html
+            - listitem [ref=e203]:
+              - link "Dental Services" [ref=e204]:
+                - /url: services.html
+            - listitem [ref=e205]:
+              - link "Reviews" [ref=e206]:
+                - /url: testimonials.html
+            - listitem [ref=e207]:
+              - link "Contact Us" [ref=e208]:
+                - /url: contact.html
+        - generic [ref=e209]:
+          - heading "Clinic Care" [level=4] [ref=e210]
+          - list [ref=e211]:
+            - listitem [ref=e212]:
+              - link "Smile Design" [ref=e213]:
+                - /url: services.html#smile-design
+            - listitem [ref=e214]:
+              - link "Invisalign®" [ref=e215]:
+                - /url: services.html#invisalign
+            - listitem [ref=e216]:
+              - link "Dental Implants" [ref=e217]:
+                - /url: services.html#dental-implants
+            - listitem [ref=e218]:
+              - link "Laser Whitening" [ref=e219]:
+                - /url: services.html#laser-whitening
+        - generic [ref=e220]:
+          - heading "Studio Hours" [level=4] [ref=e221]
+          - list:
+            - listitem: "Mon – Sat: 9 AM – 8 PM"
+            - listitem: "Sunday: Closed"
+            - listitem: 45 Aurora Avenue, Jubilee Hills
+            - listitem: Hyderabad, Telangana 500033
+      - generic [ref=e222]:
+        - paragraph [ref=e223]: © 2026 Aurevia Studio Dental Care. All rights reserved.
+        - generic [ref=e224]:
+          - link "Privacy Policy" [ref=e225]:
+            - /url: privacy-policy.html
+          - link "Terms & Conditions" [ref=e226]:
+            - /url: terms.html

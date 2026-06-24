@@ -1,0 +1,263 @@
+/* ==========================================================================
+   AUREVIA STUDIO DENTAL CARE — RESPONSIVE CSS
+   ========================================================================== */
+
+/* Laptop / Small Desktop Viewports (1200px and under) */
+@media (max-width: 1200px) {
+  :root {
+    --radius-large: 24px;
+    --radius-medium: 16px;
+  }
+
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .hero-title {
+    font-size: 3.75rem;
+  }
+
+  .services-bento {
+    grid-auto-rows: 220px;
+    gap: 1.5rem;
+  }
+
+  .about-preview-split {
+    gap: 3.5rem;
+  }
+
+  .contact-split {
+    gap: 3.5rem;
+  }
+}
+
+/* Tablet Viewports (992px and under) */
+@media (max-width: 992px) {
+  section {
+    padding-top: 6.25rem; /* 100px */
+    padding-bottom: 6.25rem;
+  }
+
+  .hero-title {
+    font-size: 3rem; /* 48px */
+  }
+
+  .hero-subtitle {
+    font-size: 1.15rem;
+  }
+
+  .hero-visual-wrapper {
+    height: 400px;
+  }
+
+  .hero-glass-overlay {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    padding: 1.5rem;
+  }
+
+  .hero-overlay-item h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .services-bento {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+  }
+
+  .bento-card, .bento-card.wide {
+    grid-column: span 2;
+  }
+
+  .about-preview-split {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-preview-img-box {
+    height: 450px;
+    order: 2;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-item.wide {
+    grid-column: span 2;
+  }
+
+  .about-story-section {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .timeline-line {
+    display: none;
+  }
+
+  .timeline-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .timeline-node {
+    padding: 1.5rem;
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius-medium);
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonials-masonry {
+    display: block;
+    columns: 2;
+    column-gap: 2.5rem;
+  }
+  
+  .testimonials-masonry .testimonial-card {
+    margin-bottom: 2.5rem;
+    break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .contact-split {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+
+/* Mobile Viewports (768px and under) */
+@media (max-width: 768px) {
+  section {
+    padding-top: 4.5rem; /* 72px */
+    padding-bottom: 4.5rem;
+  }
+
+  .nav-menu {
+    display: none; /* Hide standard nav list */
+  }
+
+  .mobile-toggle {
+    display: flex; /* Show mobile menu trigger */
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .btn {
+    width: 100%;
+    height: 48px; /* Touch target minimum standard */
+  }
+
+  .section-title {
+    font-size: 2.25rem; /* 36px */
+  }
+
+  .testimonials-track {
+    gap: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .testimonial-card {
+    width: 320px;
+    padding: 1.5rem;
+  }
+
+  .testimonials-masonry {
+    display: block;
+    columns: 1;
+  }
+  
+  .testimonials-masonry .testimonial-card {
+    margin-bottom: 1.5rem;
+    break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .about-hero-title {
+    font-size: 3.5rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .footer-bottom-links {
+    justify-content: center;
+  }
+}
+
+/* Small Mobile Viewports (480px and under) */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2.125rem; /* 34px */
+  }
+
+  .section-title {
+    font-size: 1.75rem; /* 28px */
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-preview-img-box {
+    height: 350px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-item, .gallery-item.wide, .gallery-item.tall {
+    grid-column: span 1;
+    height: 280px;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form-card {
+    padding: 1.5rem;
+  }
+}

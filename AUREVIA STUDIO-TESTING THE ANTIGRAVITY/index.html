@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Aurevia Studio — Precision Dental Care & Smile Design</title>
+  <meta name="description" content="Experience modern, luxury dental care at Aurevia Studio. Apple-inspired clinic spaces, advanced digital dentistry, and cosmetic smile designs crafted around your confidence.">
+  <meta name="keywords" content="Luxury Dental Clinic, Cosmetic Dentistry, Invisalign Specialist, Premium Dental Care, Smile Design Clinic">
+  <link rel="canonical" href="https://aureviastudio.com/index.html">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aureviastudio.com/index.html">
+  <meta property="og:title" content="Aurevia Studio — Precision Dental Care & Smile Design">
+  <meta property="og:description" content="Experience modern, luxury dental care at Aurevia Studio. Apple-inspired clinic spaces, advanced digital dentistry, and cosmetic smile designs.">
+  <meta property="og:image" content="assets/images/hero_dental_interior.webp">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://aureviastudio.com/index.html">
+  <meta name="twitter:title" content="Aurevia Studio — Precision Dental Care & Smile Design">
+  <meta name="twitter:description" content="Experience modern, luxury dental care at Aurevia Studio. Apple-inspired clinic spaces, advanced digital dentistry, and cosmetic smile designs.">
+  <meta name="twitter:image" content="assets/images/hero_dental_interior.webp">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bundle.min.css">
+  <!-- Font Preloads -->
+  <link rel="preload" href="assets/fonts/QGYvz_MVcBeNP4NJuktqQ4E.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/QGYvz_MVcBeNP4NJtEtq.woff2" as="font" type="font/woff2" crossorigin>
+  <!-- Optimized Scripts -->
+  <script src="js/gsap.min.js" defer></script>
+  <script src="js/ScrollTrigger.min.js" defer></script>
+  <script src="js/lenis.min.js" defer></script>
+  <script src="js/bundle.min.js" defer></script>
+  <!-- LCP Hero Image Preload -->
+  <link rel="preload" href="assets/images/hero_dental_interior.avif" as="image" type="image/avif" media="(min-width: 769px)" fetchpriority="high">
+  <link rel="preload" href="assets/images/hero_dental_interior-mobile.avif" as="image" type="image/avif" media="(max-width: 768px)" fetchpriority="high">
+</head>
+<body>
+
+  <!-- Custom Cursor Elements -->
+  <div class="custom-cursor" id="customCursor" aria-hidden="true"></div>
+  <div class="custom-cursor-ring" id="customCursorRing" aria-hidden="true"></div>
+
+  <!-- Subtle noise grain overlay -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Header Navigation -->
+  <header class="header-nav">
+    <nav class="nav-container" aria-label="Main Navigation">
+      <a href="index.html" class="logo" id="navLogo">
+        AUREVIA STUDIO<span class="logo-dot"></span>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li>
+          <a href="contact.html" class="btn btn-primary btn-sm clickable" style="padding: 0.5rem 1.25rem; font-size: 0.85rem;">
+            Book Consultation
+          </a>
+        </li>
+      </ul>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu" aria-expanded="false" aria-controls="mobileOverlay">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Fullscreen Mobile Navigation Menu -->
+  <div class="mobile-nav-overlay" id="mobileOverlay" aria-hidden="true">
+    <ul class="mobile-menu-links">
+      <li><a href="index.html" class="mobile-menu-link">Home</a></li>
+      <li><a href="about.html" class="mobile-menu-link">About</a></li>
+      <li><a href="services.html" class="mobile-menu-link">Services</a></li>
+      <li><a href="testimonials.html" class="mobile-menu-link">Testimonials</a></li>
+      <li><a href="contact.html" class="mobile-menu-link">Contact</a></li>
+      <li style="margin-top: 1.5rem;">
+        <a href="contact.html" class="btn btn-primary clickable">Book Consultation</a>
+      </li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="bg-gradient-orb"></div>
+      <div class="bg-gradient-orb-2"></div>
+
+      <div class="container hero-content">
+        <span class="hero-tagline">Modern Dentistry Reimagined</span>
+        <h1 class="hero-title">
+          Precision Dentistry<br>Designed Around Confidence
+        </h1>
+        <p class="hero-subtitle">
+          Luxury dental experiences crafted with modern care, advanced technology, and human-centered comfort.
+        </p>
+
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-primary clickable" id="heroPrimaryCTA">Book Consultation</a>
+          <a href="services.html" class="btn btn-secondary clickable" id="heroSecondaryCTA">Explore Services</a>
+        </div>
+
+        <!-- Floating Visual Card -->
+        <div class="hero-visual-wrapper">
+          <picture>
+            <source media="(max-width: 768px)" srcset="assets/images/hero_dental_interior-mobile.avif" type="image/avif">
+            <source media="(max-width: 768px)" srcset="assets/images/hero_dental_interior-mobile.webp" type="image/webp">
+            <source srcset="assets/images/hero_dental_interior.avif" type="image/avif">
+            <img src="assets/images/hero_dental_interior.webp" alt="Aurevia Studio treatment lounge showing beige chair and floor-to-ceiling windows" class="hero-visual-img" fetchpriority="high" width="1024" height="1024">
+          </picture>
+          
+          <!-- Glassmorphism Stats Overlay -->
+          <div class="hero-glass-overlay glass-card">
+            <div class="hero-overlay-item">
+              <h4>Advanced Digital Care</h4>
+              <p>State-of-the-art 3D imaging, laser treatments, and digital impressions.</p>
+            </div>
+            <div class="hero-overlay-item">
+              <h4>Luxury Setting</h4>
+              <p>Designed around comfort, featuring noise-canceling headsets and calming aesthetics.</p>
+            </div>
+            <div class="hero-overlay-item">
+              <h4>Bespoke Smile Design</h4>
+              <p>Every cosmetic treatment plan is fully individualised to complement your features.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Metrics Section -->
+    <section class="metrics-section" id="metrics" style="padding-top: 4rem; padding-bottom: 4rem;">
+      <div class="container">
+        <div class="metrics-grid">
+          <div class="metric-card glass-card">
+            <span class="metric-number">12+</span>
+            <span class="metric-label">Years of Experience</span>
+          </div>
+          <div class="metric-card glass-card">
+            <span class="metric-number">8k+</span>
+            <span class="metric-label">Smiles Transformed</span>
+          </div>
+          <div class="metric-card glass-card">
+            <span class="metric-number">4.9★</span>
+            <span class="metric-label">Patient Rating (Google)</span>
+          </div>
+          <div class="metric-card glass-card">
+            <span class="metric-number">100%</span>
+            <span class="metric-label">Digital Diagnostics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Bento Grid Preview Section -->
+    <section class="services-preview-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Clinical Excellence</span>
+          <h2 class="section-title">Dental Services Tailored for You</h2>
+          <p>We blend advanced dental technology with a warm, clinical precision to offer premium care in cosmetic, preventative, and restorative dentistry.</p>
+        </div>
+
+        <div class="services-bento">
+          <!-- Card 1: Cosmetic Dentistry (Wide) -->
+          <div class="bento-card wide glass-card glow-card">
+            <div class="bento-header">
+              <div class="bento-icon" aria-hidden="true">✦</div>
+              <h3 class="bento-title">Cosmetic Smile Design</h3>
+              <p class="bento-desc">Achieve the smile of your dreams. Our cosmetic treatments use digital smile mockups and ultra-thin custom porcelain veneers to create a natural, brilliant aesthetic tailored to your unique facial profile.</p>
+            </div>
+            <a href="services.html" class="bento-link clickable">
+              Learn More 
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+
+          <!-- Card 2: Invisalign (Standard) -->
+          <div class="bento-card glass-card glow-card">
+            <div class="bento-header">
+              <div class="bento-icon" aria-hidden="true">◇</div>
+              <h3 class="bento-title">Invisalign®</h3>
+              <p class="bento-desc">Straighten your teeth comfortably and discreetly with clear, removable aligners.</p>
+            </div>
+            <a href="services.html" class="bento-link clickable">
+              Learn More 
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+
+          <!-- Card 3: Teeth Whitening (Standard) -->
+          <div class="bento-card glass-card glow-card">
+            <div class="bento-header">
+              <div class="bento-icon" aria-hidden="true">☼</div>
+              <h3 class="bento-title">Laser Whitening</h3>
+              <p class="bento-desc">Bring out your bright natural shade with safe, in-office laser activation.</p>
+            </div>
+            <a href="services.html" class="bento-link clickable">
+              Learn More 
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+
+          <!-- Card 4: Dental Implants (Wide) -->
+          <div class="bento-card wide glass-card glow-card">
+            <div class="bento-header">
+              <div class="bento-icon" aria-hidden="true">▲</div>
+              <h3 class="bento-title">Dental Implants</h3>
+              <p class="bento-desc">Permanent, stable, and natural tooth replacements. Using 3D computer-guided positioning, we place biocompatible implants that bond with the bone to support a crown, restoring complete structure and function.</p>
+            </div>
+            <a href="services.html" class="bento-link clickable">
+              Learn More 
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 3.5rem;">
+          <a href="services.html" class="btn btn-secondary clickable">See More Services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Preview Section (Split) -->
+    <section class="about-preview-section below-fold" id="about-preview">
+      <div class="container about-preview-split">
+        <div class="about-preview-img-box zoom-img-container">
+          <picture>
+            <source srcset="assets/images/doctorimage.avif" type="image/avif">
+            <img src="assets/images/doctorimage.webp" alt="Dr. Elena Moreau, founder of Aurevia Studio" class="zoom-img" style="width: 115%; height: 115%; object-position: top left;" loading="lazy" width="800" height="800">
+          </picture>
+        </div>
+        <div class="about-preview-content">
+          <span class="section-tag">Our Vision</span>
+          <h3>A Calm Clinical Haven Led by Dr. Elena Moreau</h3>
+          <p>
+            At Aurevia Studio, we believe clinical environments should feel comforting, not sterile. Founded by Dr. Elena Moreau, our clinic provides modern dentistry framed around personal dialogue, artistic visual craftsmanship, and zero-stress comfort protocols.
+          </p>
+          <a href="about.html" class="btn btn-secondary clickable">Read Brand Story</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Slider Section -->
+    <section class="testimonials-preview-section below-fold" id="testimonials">
+      <div class="container">
+        <div class="section-header" style="margin-bottom: 3rem;">
+          <span class="section-tag">Client Reviews</span>
+          <h2 class="section-title">Stories from Our Patients</h2>
+          <p>Read about the personalized experiences and life-changing smile designs crafted at Aurevia Studio.</p>
+        </div>
+      </div>
+
+      <!-- Draggable Slider Container -->
+      <div class="testimonials-slider-container">
+        <div class="testimonials-track" id="testimonialsTrack">
+          <!-- Card 1 -->
+          <div class="testimonial-card glass-card">
+            <div class="testimonial-header">
+              <div class="avatar-box">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' fill='%23E8DFD3'%3E%3Crect width='56' height='56'/%3E%3C/svg%3E" alt="Portrait of Marcus Vance">
+              </div>
+              <div class="client-info">
+                <h5>Marcus Vance</h5>
+                <p>Architect</p>
+              </div>
+            </div>
+            <div class="rating-stars" aria-label="5 stars rating">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              "The design of the clinic immediately puts you at ease. Dr. Moreau's attention to detail, from matching porcelain shades to explaining 3D scans, is masterclass."
+            </blockquote>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="testimonial-card glass-card">
+            <div class="testimonial-header">
+              <div class="avatar-box">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' fill='%23E8DFD3'%3E%3Crect width='56' height='56'/%3E%3C/svg%3E" alt="Portrait of Sophia Sterling">
+              </div>
+              <div class="client-info">
+                <h5>Sophia Sterling</h5>
+                <p>Creative Director</p>
+              </div>
+            </div>
+            <div class="rating-stars" aria-label="5 stars rating">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              "Invisalign here was an absolute breeze. Everything is digital, and I could view the simulator on the tablet overlay during my sessions. Remarkable service."
+            </blockquote>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="testimonial-card glass-card">
+            <div class="testimonial-header">
+              <div class="avatar-box">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' fill='%23E8DFD3'%3E%3Crect width='56' height='56'/%3E%3C/svg%3E" alt="Portrait of Dr. Arjun Nair">
+              </div>
+              <div class="client-info">
+                <h5>Dr. Arjun Nair</h5>
+                <p>Research Scientist</p>
+              </div>
+            </div>
+            <div class="rating-stars" aria-label="5 stars rating">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              "Their diagnostic lasers and 3D printing crowns onsite saved me days of wait. High precision, clear explanations, and wonderful post-care."
+            </blockquote>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="testimonial-card glass-card">
+            <div class="testimonial-header">
+              <div class="avatar-box">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' fill='%23E8DFD3'%3E%3Crect width='56' height='56'/%3E%3C/svg%3E" alt="Portrait of Clara Dupont">
+              </div>
+              <div class="client-info">
+                <h5>Clara Dupont</h5>
+                <p>Fine Art Curator</p>
+              </div>
+            </div>
+            <div class="rating-stars" aria-label="5 stars rating">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              "I had a massive fear of root canals. The comfort protocols, soothing lighting, and Dr. Elena's calm presence made the experience completely painless."
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3.5rem;">
+        <a href="testimonials.html" class="btn btn-secondary clickable">Read All Patient Reviews</a>
+      </div>
+    </section>
+
+    <!-- Gallery Section (Masonry Grid) -->
+    <section class="gallery-section below-fold" id="gallery">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Aesthetic Spaces</span>
+          <h2 class="section-title">Our Studio Environment</h2>
+          <p>A quiet visual preview inside our clinic interior. Everything is designed to soothe senses and deliver precision results.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Item 1: Wide -->
+          <div class="gallery-item wide zoom-img-container reveal-element">
+            <picture>
+              <source srcset="assets/images/clinic_lobby_detail.avif" type="image/avif">
+              <img src="assets/images/clinic_lobby_detail.webp" alt="Warm beige travertine details" class="zoom-img" loading="lazy" width="1024" height="1024">
+            </picture>
+          </div>
+          <!-- Item 2: Tall -->
+          <div class="gallery-item tall zoom-img-container reveal-element">
+            <picture>
+              <source srcset="assets/images/hero_dental_interior.avif" type="image/avif">
+              <img src="assets/images/hero_dental_interior.webp" alt="Modern dental chair in ambient light" class="zoom-img" loading="lazy" width="1024" height="1024">
+            </picture>
+          </div>
+          <!-- Item 3: Standard -->
+          <div class="gallery-item zoom-img-container reveal-element">
+            <picture>
+              <source srcset="assets/images/dr_elena_moreau.avif" type="image/avif">
+              <img src="assets/images/dr_elena_moreau.webp" alt="Dr. Elena Moreau standing in the treatment room" class="zoom-img" loading="lazy" width="800" height="800">
+            </picture>
+          </div>
+          <!-- Item 4: Wide -->
+          <div class="gallery-item wide zoom-img-container reveal-element">
+            <picture>
+              <source srcset="assets/images/clinic_lobby_detail.avif" type="image/avif">
+              <img src="assets/images/clinic_lobby_detail.webp" alt="Serene waiting area decor" class="zoom-img" loading="lazy" width="1024" height="1024">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section below-fold" id="cta" style="padding-top: 4rem;">
+      <div class="container">
+        <div class="cta-inner glass-card reveal-element">
+          <div class="bg-gradient-orb" style="top:-200px"></div>
+          <h2>Your Smile Starts Here</h2>
+          <p>Book a private consultation with Dr. Elena Moreau to discuss personalized smile design, Invisalign, or advanced restorative care.</p>
+          <a href="contact.html" class="btn btn-primary clickable">Schedule Appointment</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="below-fold">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-info">
+          <a href="index.html" class="logo">
+            AUREVIA STUDIO<span class="logo-dot"></span>
+          </a>
+          <p>Modern dental experiences crafted with luxury comfort, clinical precision, and patient-centered trust.</p>
+          <div class="footer-socials">
+            <a href="https://instagram.com/aureviastudio" target="_blank" rel="noopener noreferrer" class="social-icon clickable" aria-label="Instagram">
+              IG
+            </a>
+            <a href="https://twitter.com/aureviadental" target="_blank" rel="noopener noreferrer" class="social-icon clickable" aria-label="Twitter">
+              X
+            </a>
+            <a href="https://linkedin.com/company/aurevia-studio" target="_blank" rel="noopener noreferrer" class="social-icon clickable" aria-label="LinkedIn">
+              LN
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Studio</a></li>
+            <li><a href="services.html">Dental Services</a></li>
+            <li><a href="testimonials.html">Reviews</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Clinic Care</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#smile-design">Smile Design</a></li>
+            <li><a href="services.html#invisalign">Invisalign®</a></li>
+            <li><a href="services.html#dental-implants">Dental Implants</a></li>
+            <li><a href="services.html#laser-whitening">Laser Whitening</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Studio Hours</h4>
+          <ul class="footer-links" style="pointer-events: none;">
+            <li style="color:#999999">Mon – Sat: 9 AM – 8 PM</li>
+            <li style="color:#999999">Sunday: Closed</li>
+            <li style="color:#999999; margin-top: 1rem;">45 Aurora Avenue, Jubilee Hills</li>
+            <li style="color:#999999">Hyderabad, Telangana 500033</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Aurevia Studio Dental Care. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms.html">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>
