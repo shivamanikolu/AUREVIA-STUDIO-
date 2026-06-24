@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Local development server for Aurevia Studio website",
   "scripts": {
-    "dev": "python -m http.server 3000 --directory \"AUREVIA STUDIO-TESTING THE ANTIGRAVITY\""
+    "dev": "python -m http.server 3000"
   },
   "keywords": [],
   "author": "",
